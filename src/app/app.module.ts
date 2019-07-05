@@ -7,16 +7,16 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { EstablecimientoComponent } from './establecimiento/establecimiento.component';
 
 import {BsDatepickerModule} from 'ngx-bootstrap/datepicker';
 import { RegistroexcelentesComponent } from './registroexcelentes/registroexcelentes.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EstablecimientoComponent,
     RegistroexcelentesComponent,
+    SidebarComponent,
   ],
   imports: [
     BrowserModule,

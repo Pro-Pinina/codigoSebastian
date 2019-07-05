@@ -8,6 +8,8 @@ import { FormBuilder } from '@angular/forms';
 })
 export class AppComponent {
   
+    title = 'angular-todo';
+
     constructor(private formBuilder: FormBuilder) { }
 
 }
